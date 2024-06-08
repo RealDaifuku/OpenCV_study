@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-haystack_img = cv.imread('Temmies.jpg', cv.IMREAD_UNCHANGED)
-needle_img = cv.imread('Temmie.jpg', cv.IMREAD_UNCHANGED)
+haystack_img = cv.imread('image/Temmies.jpg', cv.IMREAD_UNCHANGED)
+needle_img = cv.imread('image/Temmie.jpg', cv.IMREAD_UNCHANGED)
 
 if haystack_img is None or needle_img is None:
     print("Error: One or both images not loaded.")
